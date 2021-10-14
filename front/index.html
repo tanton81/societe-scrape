@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Scrape Client</title>
+		<meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+		<script src="client.js"></script>
+	</head>
+
+	<body>
+		<input type="button" id="getterButton" onclick="getButton()" value="Request info"></input>
+		<input type="text" id="requestUrl"></input>
+
+		<br />
+
+		<br/>
+
+		<h1>Enterprise details</h1>
+		<h2>Company name: <span id="companyName"></span></h2>
+		<h2>Number of employees: <span id="employees"></span></h2>
+
+		<!-- Call pageReady() function as we have "read" all HTML elements -->
+		<script type="text/javascript">
+			pageReady();
+		</script>
+	</body>
+</html>

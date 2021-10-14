@@ -1,0 +1,11 @@
+{
+  "name": "http-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "node_modules/.bin/http-server",
+  "author": "Anton TONEV",
+  "license": "ISC",
+  "dependencies": {
+    "http-server": "^13.0.2"
+  }
+}
